@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    font-family: "Montserrat";
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+        
+    padding: 20px;
+    background-image: url(porsche-911-gt3-rs-rear-4k-3f.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 50px;
+    border-radius: 30px;
+    width: 420px;
+    background-color: rgba(255, 255, 255, 0.162);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
+}
+
+h1 {
+    font-size: 35px;
+}
+
+input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffffac;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient(#ffffff, #ffffff);
+    border: solid 1px #ffffff;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    align-self: center;
+    width: 160px;
+}
+
+a {
+    color: rgb(0, 174, 255);
+    font-weight: 500;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.barra-horizontal {
+    background-color: #f87842;
+    height: 5px;
+    width: 210px;
+}
+
+.campo-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkbox {
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.esqueceu-senha {
+    text-align: center;
+}
